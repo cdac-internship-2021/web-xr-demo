@@ -1,0 +1,65 @@
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.container .title {
+	width: 100%;
+	padding: 0 1rem;
+	font-weight: 600;
+	margin: 0.5rem 0;
+	font-size: 1.5rem;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.container .options-select,
+.options-select .model-select,
+.options-select .animation-select {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem 1rem;
+}
+
+.model-select label,
+.animation-select label {
+	margin-right: 0.5rem;
+}
+
+.model-select #model,
+.animation-select #animation {
+	padding: 0.25rem 0.5rem;
+	font-size: 0.95rem;
+	font-weight: 400;
+	border-radius: 0.25rem;
+	text-transform: capitalize;
+}
+
+.model-select option,
+.animation-select option {
+	font-size: 0.95rem;
+	text-transform: capitalize;
+}
+
+model-viewer {
+	width: 75%;
+	height: 60vh;
+	border: 1px solid black;
+	border-radius: 0.5rem;
+}
+
+.model-name {
+	width: 100%;
+	padding: 0 1rem;
+	margin: 0.5rem 0;
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
