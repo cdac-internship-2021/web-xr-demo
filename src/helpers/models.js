@@ -7,16 +7,6 @@ export const glbModels = [
 		name: "geo-planter",
 		animations: [],
 	},
-	{
-		name: "wolf",
-		animations: [
-			"01_Run_Armature_0",
-			"02_walk_Armature_0",
-			"03_creep_Armature_0",
-			"04_Idle_Armature_0",
-			"05_site_Armature_0",
-		],
-	},
 ];
 
 export const gltfModels = [
@@ -53,15 +43,5 @@ export const gltfModels = [
 	{
 		name: "robot",
 		animations: ["Take 001"],
-	},
-	{
-		name: "wolf",
-		animations: [
-			"01_Run_Armature_0",
-			"02_walk_Armature_0",
-			"03_creep_Armature_0",
-			"04_Idle_Armature_0",
-			"05_site_Armature_0",
-		],
 	},
 ];
