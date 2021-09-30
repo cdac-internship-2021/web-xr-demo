@@ -51,7 +51,7 @@ const Model = ({ models, type }) => {
 					</div>
 					{/* @ts-ignore */}
 					<model-viewer
-						src={`/models/${models[model].name}/scene.${type}`}
+						src={`/web-xr-demo/models/${models[model].name}/scene.${type}`}
 						alt={`${models[model].name} model`}
 						ar
 						ar-modes="webxr scene-viewer quick-look"
