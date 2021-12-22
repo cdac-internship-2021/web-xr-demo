@@ -2,7 +2,6 @@
 	"name": "web-xr-demo",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://cdac-internship-2021.github.io/web-xr-demo/",
 	"dependencies": {
 		"@google/model-viewer": "^1.8.0",
 		"@testing-library/jest-dom": "^5.14.1",
@@ -11,6 +10,7 @@
 		"gh-pages": "^3.2.3",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
+		"react-router-dom": "^6.0.2",
 		"react-scripts": "^4.0.3",
 		"web-vitals": "^1.1.2"
 	},
