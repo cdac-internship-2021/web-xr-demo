@@ -5,7 +5,7 @@ import VRModel from "./components/VRModel";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/">
 			<div className="page-container">
 				<Routes>
 					<Route path="/" element={<Home />} />
