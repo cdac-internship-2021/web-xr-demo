@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const ARModel = () => {
-	const [animation, setAnimation] = useState(0);
 	const [model, setModel] = useState(null);
 	const { id } = useParams();
 
@@ -35,7 +34,6 @@ const ARModel = () => {
 						environment-image="neutral"
 						camera-controls
 						autoplay
-						animation-name={model.animations[animation]}
 					/>
 				</>
 			)}

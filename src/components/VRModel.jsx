@@ -23,8 +23,7 @@ const VRModel = () => {
 
 	useEffect(() => {
 		if (model !== null) {
-			// @ts-ignore
-			vrViewRef.current = new VRView.Player("#vrview", {
+			vrViewRef.current = new window.VRView.Player("#vrview", {
 				image: `https://raw.githubusercontent.com/cdac-internship-2021/models/main/${model.name}/scene.gltf`,
 				preview: `${model.poster}`,
 			});
