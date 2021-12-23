@@ -8,12 +8,12 @@ function App() {
 		<BrowserRouter>
 			<div className="page-container">
 				<Routes>
-					<Route path="/web-xr-demo/" element={<Home />} />
-					<Route path="/web-xr-demo/ar" element={<ARHome />} />
-					<Route path="/web-xr-demo/ar/:id" element={<ARModel />} />
-					<Route path="/web-xr-demo/vr" element={<VRHome />} />
-					<Route path="/web-xr-demo/vr/:id" element={<VRModel />} />
-					<Route path="/web-xr-demo/*" element={<h1>Not found</h1>} />
+					<Route path="/" element={<Home />} />
+					<Route path="/ar" element={<ARHome />} />
+					<Route path="/ar/:id" element={<ARModel />} />
+					<Route path="/vr" element={<VRHome />} />
+					<Route path="/vr/:id" element={<VRModel />} />
+					<Route path="/*" element={<h1>Not found</h1>} />
 				</Routes>
 			</div>
 		</BrowserRouter>
