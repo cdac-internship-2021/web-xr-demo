@@ -1,13 +1,12 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ARModel from "./components/ARModel";
 import { Home, ARHome, VRHome } from "./components/Home";
 import VRModel from "./components/VRModel";
 
 function App() {
 	return (
-		<HashRouter basename="/">
+		<BrowserRouter basename="/web-xr-demo">
 			<div className="page-container">
-				{console.log(window.URL)}
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/ar" element={<ARHome />} />
@@ -17,7 +16,7 @@ function App() {
 					<Route path="*" element={<h1>Not found</h1>} />
 				</Routes>
 			</div>
-		</HashRouter>
+		</BrowserRouter>
 	);
 }
 
